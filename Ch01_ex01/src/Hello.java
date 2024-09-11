@@ -4,6 +4,10 @@ public class Hello {
 		return n+m;
 	}
 	
+	public static double avg(int n, int m) {
+		return sum(n, m) / 2.0;
+	}
+	
 	public static void main(String[] args) {
 		System.out.println("장준하");
 		
@@ -18,5 +22,9 @@ public class Hello {
 		int s;
 		s = sum(a, 10);
 		System.out.println(s);
+		
+		double d;
+		d = avg(a, 45);
+		System.out.println(d);
 	}
 }
