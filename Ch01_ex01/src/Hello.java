@@ -28,9 +28,16 @@ public class Hello {
 		System.out.println(d);
 		
 		int ss = 0;
+		//  초기값 ; 조건식 ; 증감식
 		for (int i = 1; i <= 10; i++) {
 			ss += i;
 		}
 		System.out.println(ss);
+		
+		for (int i = 2; i <= 9; i++) {
+			for (int j = 2; j <= 9; j++) {
+				System.out.println(i + " X " + j + "\t= " + i * j);
+			}
+		}
 	}
 }
