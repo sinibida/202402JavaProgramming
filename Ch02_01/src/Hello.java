@@ -1,5 +1,9 @@
 
 public class Hello {
+	public static double avg(int a, int b) {
+		return sum(a, b) / 2.0;
+	}
+	
 	public static int sum(int n, int m) {
 		return n + m;
 	}
@@ -14,5 +18,10 @@ public class Hello {
 		System.out.println(a); // 문자 '?' 화면 출력
 		System.out.println("Hello"); // "Hello" 문자열 화면 출력
 		System.out.println(s); // 정수 s 값 화면 출력
+		
+		double as;
+		
+		as = avg(i, 10);
+		System.out.println(as);
 	}
 }
