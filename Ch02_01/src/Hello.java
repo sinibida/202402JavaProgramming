@@ -23,5 +23,9 @@ public class Hello {
 		
 		as = avg(i, 10);
 		System.out.println(as);
+
+		System.out.print("Hello");
+		System.out.print("\n");
+		System.out.println("Hello");
 	}
 }
