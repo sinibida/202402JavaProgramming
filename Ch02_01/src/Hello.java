@@ -1,7 +1,7 @@
 
 public class Hello {
 	public static double avg(int a, int b) {
-		return sum(a, b) / 2.0;
+		return (double)sum(a, b) / 2.0;
 	}
 	
 	public static int sum(int n, int m) {
