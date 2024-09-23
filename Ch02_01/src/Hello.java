@@ -18,3 +18,15 @@ public class Hello {
 	}
 
 }
+
+class Apple {
+	int seek() {
+		return 0;
+	}
+}
+
+class Bpple {
+	int seek() {
+		return 0;
+	}
+}
