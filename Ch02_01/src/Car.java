@@ -9,8 +9,8 @@ public class Car {
 		double area = radius * radius * PI;
 		double circum = 2 * radius * PI;
 		
-		System.out.println(area);
-		System.out.println(circum);
+		System.out.println("원의 면적 = " + area);
+		System.out.println("원의 둘레 = " + circum);
 	}
 
 }
