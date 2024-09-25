@@ -1,24 +1,18 @@
 import java.util.Scanner;
 
 public class Car {
-
+	public static int add(int a, int b) {
+		return a + b;
+	}
+	
 	public static void main(String[] args) {
-		String school;
-		String name;
-		int sid;
-		
+		int a, b;
 		var scanner = new Scanner(System.in);
 
-		System.out.print("너의 학교는? ");
-		school = scanner.next();
+		a = scanner.nextInt();
+		b = scanner.nextInt();
 		
-		System.out.print("너의 학번은? ");
-		sid = scanner.nextInt();
-		
-		System.out.print("너의 이름은? ");
-		name = scanner.next();
-		
-		System.out.println("당신은 " + school + " 학생 " + name + " " + sid + " 입니다.");
+		System.out.println(add(a, b));
 		
 		scanner.close();
 	}
